@@ -2,42 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Web site created using create-react-app. Babywatchers"
     />
-    <link rel="apple-touch-icon" href="logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
+  <title>Layout Master</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">  </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <!--div id="root"></div-->
+  <nav class="zone blue sticky">
+      <ul class="main-nav">
+          <li><a href="">About</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">Our Team</a></li>
+          <li class="push"><a href="">Contact</a></li>
+  </ul>
+  </nav>
+  <div class="container"><img class="cover" src="./img/lastehoid.jpg"></div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  <div class="zone blue grid-wrapper"> 
+    <!--div class="box zone"><img src="./img/files_2.png"></!--div>
+    <div class="box zone"><img src="./img/server_2_2.png"></div>
+    <div class="box zone"><img src="./img/monitor_settings_2.png"></div>
+    <div class="box zone"><img src="./img/server_3.png"></div>
+    <div class="box zone"><img src="./img/data_storage_2_2.png"></div>
+    <div class="box zone"><img src="./img/monitor_coding_2.png"></div>
+    <div class="box zone"><img src="./img/desktop_analytics_2.png"></div>
+    <div-- class="box zone"><img src="./img/server_safe_2.png"></div-->
+  </div>
+  
+  <footer class="zone yellow sticky_bottom">made by z => m</footer>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+</div>
   </body>
 </html>
